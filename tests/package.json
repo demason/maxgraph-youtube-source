@@ -1,0 +1,13 @@
+{
+  "name": "maxgraph-production-tests",
+  "private": true,
+  "scripts": {
+    "test": "node --test *.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}
